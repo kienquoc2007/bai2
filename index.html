@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mini-project Bài 1: Khóa học HTML5 Cơ Bản</title>
+</head>
+<body>
+
+  <header>
+    <div class="logo">
+      <h2>EduTech / Bài 1</h2>
+    </div>
+    <div class="banner">
+      <h1>Khóa Học HTML5 Cho Người Mới Bắt Đầu</h1>
+      <p>Lộ trình tinh gọn - Thực hành thực tế - Làm chủ giao diện web</p>
+    </div>
+  </header>
+
+  <hr>
+
+  <nav>
+    <ul>
+      <li><a href="#tong-quan">Tổng Quan Bài Học</a></li>
+      <li><a href="#noi-dung">Nội Dung Chi Tiết</a></li>
+      <li><a href="#bai-tap">Bài Tập Thực Hành</a></li>
+      <li><a href="#lien-he">Hỗ Trợ & Góp Ý</a></li>
+    </ul>
+  </nav>
+
+  <hr>
+
+  <main>
+
+    <section id="tong-quan">
+      <h2>I. Tổng Quan Bài Học</h2>
+      <p>Trong bài học này, chúng ta sẽ cùng nhau tìm hiểu về các thẻ cấu trúc (Semantic Tags) trong HTML5. Việc nắm vững các thẻ này giúp website của bạn chuẩn SEO và dễ bảo trì hơn.</p>
+      
+      <img src="assets/ui-sketch.png" alt="Sơ đồ phác thảo giao diện UI của bài học" width="600">
+    </section>
+
+    <section id="noi-dung">
+      <h2>II. Nội Dung Chi Tiết</h2>
+      <p>Các nhóm thẻ quan trọng cần nắm vững được liệt kê trong bảng dưới đây:</p>
+      
+      <table border="1" cellpadding="8" cellspacing="0">
+        <thead>
+          <tr>
+            <th>Nhóm Thẻ</th>
+            <th>Tên Thẻ HTML5</th>
+            <th>Chức Năng Chính</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Định vị (Layout)</td>
+            <td><code>&lt;header&gt;, &lt;nav&gt;, &lt;main&gt;, &lt;footer&gt;</code></td>
+            <td>Phân chia cấu trúc các khu vực chính trên trang web.</td>
+          </tr>
+          <tr>
+            <td>Nội dung (Content)</td>
+            <td><code>&lt;section&gt;, &lt;article&gt;, &lt;aside&gt;</code></td>
+            <td>Chứa các đoạn nội dung, bài viết hoặc thông tin phụ.</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="bai-tap">
+      <h2>III. Nộp Bài Tập Thực Hành</h2>
+      <p>Sau khi tự gõ lại file HTML theo ảnh phác thảo, hãy điền thông tin vào form dưới đây để lưu tiến độ:</p>
+      
+      <form action="#" method="POST">
+        <div>
+          <label for="student-name">Họ và tên học viên:</label><br>
+          <input type="text" id="student-name" name="studentName" placeholder="Nguyễn Văn A" required>
+        </div>
+        
+        <br>
+        
+        <div>
+          <label for="github-link">Link GitHub Repository:</label><br>
+          <input type="url" id="github-link" name="githubLink" placeholder="https://github.com/.../mini-project-1" required>
+        </div>
+
+        <br>
+
+        <div>
+          <label for="student-note">Ghi chú (nếu có):</label><br>
+          <textarea id="student-note" name="studentNote" rows="4" cols="40" placeholder="Em có chỉnh sửa thêm một chút ở phần..."></textarea>
+        </div>
+
+        <br>
+
+        <div>
+          <button type="submit">Nộp Bài Lên Hệ Thống</button>
+        </div>
+      </form>
+    </section>
+
+  </main>
+
+  <hr>
+
+  <footer>
+    <p>&copy; 2026 Biên soạn bởi Kien Quoc.</p>
+ 
+  </footer>
+
+</body>
+</html>
